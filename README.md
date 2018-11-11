@@ -6,6 +6,8 @@ Simply run `docker-compose up` in the root repo
 
 The configuration for fluent-bit is `fluentbit/etc/fluent-bit.conf`, in this example all inputs are redirected to standard output.
 
+The input selected for fluentbit is TCP Json Socket because is more standard than fluent protocol. The most known languages are libraries for logging into a tcp socket so this solution it must work with many languages.
+
 ## Running example for Node.JS
 
 This example is proved with NodeJS >9.x with
