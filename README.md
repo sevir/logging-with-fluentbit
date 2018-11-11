@@ -41,3 +41,5 @@ ruby test-fluent.rb
 Configure log4j2 with the XML
 
 Sorry I can't make an example, my knowledge with JAVA is very poor
+
+Useful info for Log4j with SocketAppender in [Log Aggregation](https://blog.lanyonm.org/articles/2015/12/29/log-aggregation-log4j-spring-logstash.html)
