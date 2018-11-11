@@ -1,0 +1,12 @@
+version: '2.2'
+services:
+  fluentbit:
+    # image name from repository or local
+    image: fluent/fluent-bit
+
+    ports:
+      - "5170:5170"
+    volumes:
+      - ./fluentbit/etc/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+
+    restart: always

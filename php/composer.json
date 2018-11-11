@@ -1,0 +1,12 @@
+{
+    "name": "sevir/php",
+    "authors": [
+        {
+            "name": "José Fco. Rives",
+            "email": "jose@digio.es"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    }
+}
