@@ -36,3 +36,8 @@ bundle install --path vendor
 ruby test-fluent.rb
 ```
 
+## Configuration for JAVA
+
+Configure log4j2 with the XML
+
+Sorry I can't make an example, my knowledge with JAVA is very poor
