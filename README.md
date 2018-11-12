@@ -10,7 +10,7 @@ The input selected for fluentbit is TCP Json Socket because is more standard tha
 
 ## Running example for Node.JS
 
-This example is proved with NodeJS >9.x with
+This example is tested on NodeJS >9.x with
 
 ```bash
 npm install
@@ -19,7 +19,7 @@ node --experimental-modules test-fluent.mjs
 
 ## Running example for PHP
 
-This example is proved with PHP 7.x
+This example is tested on PHP 7.x
 
 ```bash
 composer install
@@ -28,7 +28,7 @@ php test-fluent.php
 
 ## Running example for Ruby
 
-This example is proved with Ruby 2.5+
+This example is tested on Ruby 2.5+
 
 ```bash
 sudo gem install bundler
